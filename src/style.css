@@ -1,1 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* div */
+
+/* button */
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: auto;
+}
+.button:hover {
+  background-color: #43a446; /* Green */
+}
+.button:active {
+  background-color: #43a446;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
